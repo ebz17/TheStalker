@@ -1,0 +1,21 @@
+{
+  // Master switch
+  "enabled": true,
+
+  // Chance (0-100) that the Stalker carries a marked key (in his chest rig) (RB-BK most often, RB-VO and RB-PKPM rarer)
+  "markedKeyChance": 35,
+
+  // His health in % of the default (1120 HP: head 120, chest 350, stomach 160, arms 105, legs 140).
+  // 100 = default, 75 = easier, 150 = tougher.
+  "healthPercent": 100,
+
+  // How many stims he carries (0-9), picked at random each raid, never two of the same:
+  //   healing - Zagustin (stops his bleeding), eTG-c (big heal), Propital (slow heal), Perfotoran, Trimadol (legs work again)
+  //   highs   - Obdolbos 2 (berserk, then a crash), Adrenaline (lunge), PNB (deeper cuts), SJ6 (faster bolts)
+  // He wears a black chest rig to carry them. The ones he didn't use are loot.
+  "stims": 6,
+
+  // Labs bot zone he arrives in. On the other maps he uses the map's own bot zones.
+  // The client mod keeps him back until he wakes up, then moves him somewhere out of your sight.
+  "zone": "BotZoneBasement"
+}

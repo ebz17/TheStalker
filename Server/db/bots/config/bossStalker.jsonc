@@ -1,0 +1,27 @@
+{
+  "type": "bossStalker",
+  "presetBatch": 2,
+  "isBoss": true,
+  "mustHaveUniqueName": false,
+  "durability": {
+    "armor": { "maxDelta": 0, "minDelta": 0, "minLimitPercent": 0, "lowestMaxPercent": 100, "highestMaxPercent": 100 },
+    "weapon": { "highestMax": 100, "lowestMax": 100, "maxDelta": 0, "minDelta": 0, "minLimitPercent": 0 }
+  },
+  "itemSpawnLimits": { "5c0e533786f7747fa23f4d47": 1, "5c0e534186f7747fa1419867": 1, "637b620db7afa97bfc3d7009": 1 },
+  "equipment": {
+    "faceShieldIsActiveChancePercent": 100,
+    "forceOnlyArmoredRigWhenNoArmor": false,
+    "forceStock": false,
+    "laserIsActiveChancePercent": 0,
+    "lightIsActiveDayChancePercent": 0,
+    "lightIsActiveNightChancePercent": 0,
+    "nvgIsActiveChanceDayPercent": 0,
+    "nvgIsActiveChanceNightPercent": 0
+  },
+  "currencyStackSize": {
+    "5449016a4bdc2d6f028b456f": { "10": 0 },
+    "5696686a4bdc2da3298b456a": { "10": 0 },
+    "569668774bdc2da2298b4568": { "10": 0 },
+    "5d235b4d86f7742e017bc88a": { "10": 0 }
+  }
+}

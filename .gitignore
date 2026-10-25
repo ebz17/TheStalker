@@ -1,0 +1,8 @@
+bin/
+obj/
+out/
+libs/
+References/
+*.user
+*.pdb
+*.dll
